@@ -4,19 +4,26 @@ This project is based on the Socket.io tutorial `https://socket.io/docs/v4/tutor
 
 ## Instructions to run
 
-1. Clone the repository
-2. Run ```npm install```
-3. Run ```cd server``` and then ```npm start```
-4. Open another terminal and run ```cd client``` in the project directory and run ```npm run dev```
-5. Paste this link into your browser `http://localhost:5173/`
-6. Register as a user and send messages
-7. To act as a different user, repeat from step 5 in a separate tab.
+1. Clone the repository - either with
+   - ``` git clone https://github.com/jonathantarun/HW4_SocketChat.git ```
+   - ``` git clone git@github.com:jonathantarun/HW4_SocketChat.git ```
+2. Navigate to the project directory in the terminal
+3. Run ```npm install```
+4. Run ```cd server``` and then ```npm start```
+5. Open another terminal at the project directory and run ```cd client``` then run ```npm run dev```
+6. Paste this link into your browser `http://localhost:5173/` (or if a different link shows up on the terminal as Local : *link* , use that link)
+7. Register as a user and send messages.
+8. To act as a different user, repeat from step 6 in a separate tab.
+
+## Demo Video
+[Click here](https://youtu.be/G5jAfl75nII) to watch my video on this assignment!
 
 ## Creative Addition
 
-1. List of Online Users (There is a big so I added a new addition)
+1. List of Online Users (There is a bug so I added a new addition)
 2. Message Reactions - allows users to react to anyone's message using some emojis.
 3. Typing Indicator - Shows who is typing.
+4. The colors of other users will be highlighted.
 
 ## AI Usage
 
